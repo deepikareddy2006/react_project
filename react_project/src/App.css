@@ -1,24 +1,26 @@
-.navbar {
+.form-container {
+  width: 350px;
+  margin: 40px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.form-container h2 {
+  text-align: center;
+}
+
+.form-container form {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 40px;
-  background-color: #222;
-  color: white;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.navbar h2 {
-  margin: 0;
+.form-container input {
+  padding: 10px;
 }
 
-.navbar ul {
-  display: flex;
-  gap: 30px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar li {
+.form-container button {
+  padding: 10px;
   cursor: pointer;
 }
